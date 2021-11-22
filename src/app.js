@@ -43,7 +43,8 @@ function displayTemperature(response) {
 }
 
 let apiKey = "d89e4ba68ac7c22ff398fa2b3803df96";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=New York&units=metric&appid=${apiKey}`;
+let city = "Paris";
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 
 console.log(apiUrl);
 
