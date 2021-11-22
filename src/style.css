@@ -25,6 +25,15 @@ li {
   line-height: 19px;
 }
 
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.link-primary {
+  text-decoration: none;
+}
+
 li:first-letter {
   text-transform: uppercase;
 }
