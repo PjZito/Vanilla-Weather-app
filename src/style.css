@@ -23,7 +23,10 @@ li {
   font-size: 14px;
   font-weight: 100;
   line-height: 19px;
-  text-transform: capitalize;
+}
+
+li:first-letter {
+  text-transform: uppercase;
 }
 
 .float-left {
