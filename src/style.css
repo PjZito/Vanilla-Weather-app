@@ -30,10 +30,6 @@ li {
   cursor: default;
 }
 
-.link-primary {
-  text-decoration: none;
-}
-
 li:first-letter {
   text-transform: uppercase;
 }
@@ -43,7 +39,7 @@ li:first-letter {
 }
 
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
   color: rgb(33, 33, 33);
 }
